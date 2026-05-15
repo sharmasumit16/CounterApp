@@ -6,6 +6,14 @@ A React Native (TypeScript) counter application with non-trivial JavaScript logi
 
 ## Screenshots
 
+<p align="center">
+  <img src="assets/screenshots/image%20(2).png" width="280" alt="Native TurboModule Mode — Counter at 16"/>
+</p>
+
+<p align="center"><b>Native TurboModule Mode</b> — All business logic runs in C++ via JSI. Counter at 16, recent values visible in the history strip.</p>
+
+<br/>
+
 <table>
   <tr>
     <td align="center"><b>JS Mode — Counting</b></td>
@@ -13,14 +21,14 @@ A React Native (TypeScript) counter application with non-trivial JavaScript logi
     <td align="center"><b>Native Mode — Counting</b></td>
   </tr>
   <tr>
-    <td><img src="assets/screenshots/js-mode.png" width="220" alt="JS Mode"/></td>
-    <td><img src="assets/screenshots/native-mode-zero.png" width="220" alt="Native TurboModule Mode — Zero"/></td>
-    <td><img src="assets/screenshots/native-mode-counting.png" width="220" alt="Native TurboModule Mode — Counting"/></td>
+    <td><img src="assets/screenshots/image%20(4).png" width="220" alt="JS Mode"/></td>
+    <td><img src="assets/screenshots/image%20(3).png" width="220" alt="Native TurboModule Mode — Zero"/></td>
+    <td><img src="assets/screenshots/image%20(2).png" width="220" alt="Native TurboModule Mode — Counting"/></td>
   </tr>
   <tr>
-    <td align="center">JS implementation · counter at 8 · recent history shown</td>
-    <td align="center">TurboModule · C++ logic · counter reset to 0</td>
-    <td align="center">TurboModule · counter at 16 · full history strip</td>
+    <td align="center">JS implementation<br/>counter at 8<br/>recent history shown</td>
+    <td align="center">TurboModule · C++ logic<br/>counter reset to 0<br/>Decrement &amp; Reset disabled</td>
+    <td align="center">TurboModule · counter at 16<br/>full history strip<br/>all buttons active</td>
   </tr>
 </table>
 
